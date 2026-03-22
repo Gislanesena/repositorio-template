@@ -1,0 +1,36 @@
+name: "🐛 Bug / Impedimento"
+description: Reporte um bug ou um bloqueio no desenvolvimento
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: descricao
+    attributes:
+      label: "O que está acontecendo?"
+      placeholder: "Descreva o problema..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: esperado
+    attributes:
+      label: "O que deveria acontecer?"
+      placeholder: "Comportamento esperado..."
+
+  - type: textarea
+    id: passos
+    attributes:
+      label: "Como reproduzir?"
+      placeholder: |
+        1. Vá para...
+        2. Clique em...
+        3. Veja o erro...
+
+  - type: dropdown
+    id: severidade
+    attributes:
+      label: "Severidade"
+      options:
+        - "🔴 Bloqueador — impede o desenvolvimento"
+        - "🟡 Alta — afeta funcionalidade importante"
+        - "🟢 Baixa — cosmético ou tem workaround"

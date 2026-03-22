@@ -1,0 +1,65 @@
+name: "📋 Task"
+description: Task do backlog do 1º Hackathon FATEC Itaquera
+title: "[TASK] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > Preencha durante o **Sprint Planning**. Quanto mais clara a task, melhor o trabalho do time.
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: "📝 O que precisa ser feito?"
+      placeholder: "Descreva claramente o que deve ser desenvolvido..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: "✅ Critérios de aceite"
+      description: Como saberemos que esta task está pronta?
+      placeholder: |
+        - [ ] O usuário consegue fazer X
+        - [ ] A tela exibe Y
+        - [ ] A API retorna Z com status 200
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pontos
+    attributes:
+      label: "⚡ Esforço estimado (Story Points)"
+      options:
+        - "1 pt — menos de 1h (ex: criar README)"
+        - "2 pts — 1 a 2h (ex: página estática)"
+        - "3 pts — 2 a 4h (ex: componente com estado)"
+        - "5 pts — meio dia (ex: autenticação completa)"
+        - "8 pts — dia inteiro (ex: módulo completo com CRUD)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: prioridade
+    attributes:
+      label: "🔥 Prioridade"
+      options:
+        - "Alta — necessária para o MVP"
+        - "Média — melhora o produto"
+        - "Baixa — bônus se sobrar tempo"
+    validations:
+      required: true
+
+  - type: input
+    id: responsavel
+    attributes:
+      label: "👤 Responsável"
+      placeholder: "ex: João Silva"
+
+  - type: textarea
+    id: notas
+    attributes:
+      label: "📌 Notas adicionais"
+      placeholder: "Links úteis, decisões técnicas, dependências com outras tasks..."

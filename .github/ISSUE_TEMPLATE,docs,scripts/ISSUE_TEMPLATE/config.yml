@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Dúvidas sobre o desafio
+    url: https://github.com/hackathon-FATEC/repositorio-template/discussions
+    about: Abra uma Discussion para perguntas gerais sobre o hackathon
