@@ -1,4 +1,4 @@
-﻿# 📘 Guia do GitHub — 1º Hackathon FATEC Itaquera
+﻿# 📘 Guia do Participante: 1º Hackathon FATEC Itaquera
 
 Tudo que você precisa saber para usar o GitHub durante o evento.
 
@@ -22,7 +22,7 @@ Tudo que você precisa saber para usar o GitHub durante o evento.
 
 ### Usando o template oficial
 
-O repositório deste hackathon é um **template** — isso significa que você não precisa começar do zero.
+O repositório deste hackathon é um **template**: isso significa que você não precisa começar do zero.
 
 **Passo a passo:**
 
@@ -78,7 +78,7 @@ O edital exige que o projeto tenha uma licença open source.
 
 1. Na página do repositório, clique em **"Add file" → "Create new file"**
 2. Nomeie o arquivo como `LICENSE`
-3. À direita aparecerá o botão **"Choose a license template"** — clique nele
+3. À direita aparecerá o botão **"Choose a license template"** : clique nele
 4. Escolha **MIT License** (a mais simples), preencha o ano e seu nome
 5. Clique em **"Review and submit"** e depois em **"Commit changes"**
 
@@ -177,7 +177,7 @@ agora vai
 commit
 ```
 
-> 💡 **Dica:** commit pequeno e frequente é muito melhor do que um commit gigante no final. Mostra a evolução do projeto — e é exatamente isso que o júri vai olhar.
+> 💡 **Dica:** commit pequeno e frequente é muito melhor do que um commit gigante no final. Mostra a evolução do projeto : e é exatamente isso que o júri vai olhar.
 
 ---
 
@@ -215,21 +215,21 @@ O time pode e deve criar issues para features criativas que inventar. Isso demon
 ### Fechar uma issue
 
 Quando a task está pronta e o código foi aprovado no Pull Request, feche a issue:
-- Pelo PR: escreva `Closes #numero` na descrição do PR — a issue fecha automaticamente no merge
+- Pelo PR: escreva `Closes #numero` na descrição do PR : a issue fecha automaticamente no merge
 - Ou manualmente: abra a issue e clique em **"Close issue"**
 
 ---
 
 ## 5. Montar o Kanban (Project Board)
 
-O Kanban é onde o time visualiza o andamento da sprint. **Deve ser mantido atualizado** — o júri vai olhar.
+O Kanban é onde o time visualiza o andamento da sprint. **Deve ser mantido atualizado** : o júri vai olhar.
 
 ### Criar o Project Board do time
 
 1. No repositório do time, clique em **"Projects"**
 2. Clique em **"Link a project" → "New project"**
 3. Escolha o template **"Board"**
-4. Nomeie como `Sprint — [Nome do Time]`
+4. Nomeie como `Sprint : [Nome do Time]`
 5. Crie as 5 colunas clicando em **"+ Add column"**:
 
 ```
@@ -264,7 +264,7 @@ O Kanban é onde o time visualiza o andamento da sprint. **Deve ser mantido atua
 ### Como abrir um PR
 
 1. Após dar `git push` da sua branch, acesse o repositório no GitHub
-2. Aparecerá um banner amarelo: **"Compare & pull request"** — clique nele
+2. Aparecerá um banner amarelo: **"Compare & pull request"** : clique nele
 3. Preencha a descrição seguindo este modelo:
 
 ```markdown
@@ -291,9 +291,9 @@ Closes #3
 3. Clique em **"Files changed"** para ver o que mudou
 4. Deixe comentários clicando no `+` ao lado de uma linha de código
 5. Quando terminar, clique em **"Review changes"** e escolha:
-   - ✅ **Approve** — está bom, pode fazer merge
-   - 💬 **Comment** — tem dúvidas mas não bloqueia
-   - ❌ **Request changes** — precisa ajustar antes de mergear
+   - ✅ **Approve** : está bom, pode fazer merge
+   - 💬 **Comment** : tem dúvidas mas não bloqueia
+   - ❌ **Request changes** : precisa ajustar antes de mergear
 
 ### Fazer o merge
 

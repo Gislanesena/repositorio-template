@@ -1,4 +1,4 @@
-# Edital — 1º Hackathon FATEC Itaquera
+# Edital: 1º Hackathon FATEC Itaquera
 
 ---
 
