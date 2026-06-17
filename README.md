@@ -1,18 +1,20 @@
 <div align="center">
 
-# 🎓 1º Hackathon FATEC Itaquera
+# 🎓 2º Hackathon da Mobilização Popular 
 
-**Como a tecnologia pode melhorar a experiência diária do estudante dentro da FATEC?**
+**A busca pela transparência na rede**
 
 </div>
 
 ---
 
-Bem-vindo ao repositório oficial do primeiro Hackathon da FATEC Itaquera!
+Bem-vindo ao repositório oficial do segundo Hackathon do EJUV!
 
-Durante [PREENCHER] horas, times de 3 a 6 estudantes vão desenvolver um protótipo de software que reúna em um único lugar as informações do dia a dia do estudante: aulas, notas, eventos, documentos e carteirinha digital.
+As equipes deverão conter de 3 a 6 integrantes, com diversidade de habilidades (desenvolvimento, design, conteúdo, articulação política, etc.)
 
-A stack é livre. A abordagem é livre. O que importa é responder à pergunta central do desafio.
+O objetivo é desenvolver protótipos de uma plataforma digital que proponha respostas à era da desinformação vivida no mundo. A proposta é: desenvolver soluções digitais que aumentem a transparência, rastreabilidade e confiabilidade das informações que circulam nos meios de comunicação digitais
+
+As equipes ficam  livres para pensar formas diversas de resolver o problema de falta de transparência na rede.
 
 ---
 
@@ -20,11 +22,12 @@ A stack é livre. A abordagem é livre. O que importa é responder à pergunta c
 
 | Documento | O que você vai encontrar |
 |-----------|--------------------------|
-| [📖 Edital](docs/EDITAL.md) | Regras oficiais, critérios de avaliação e premiação |
+| [📖 Edital]([docs/EDITAL.md](https://docs.google.com/document/d/1AO52XCCo1c6EqRR5fQU0ggVKV87MJNQ49C0uAEmnMZo/edit?pli=1&tab=t.0)) | Regras oficiais, critérios de avaliação e premiação |
 | [📘 Guia do Participante](docs/GUIA-GITHUB.md) | Como usar o GitHub durante o evento com exemplos do repositório, issues, Kanban, commits e entrega |
+
 
 ---
 
 ## ❓ Dúvidas?
 
-Acesse a aba [**Discussions**](https://github.com/hackathon-FATEC/repositorio-template/discussions) e abra uma pergunta.
+Para dúvidas e informações, entre em contato pelo número: 27 99624 - 3386
